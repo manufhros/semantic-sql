@@ -1,0 +1,20 @@
+[project]
+name = "semantic_sql"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "python-dotenv",
+    "loguru",
+]
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+select = ["E", "F", "W"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+pythonpath = "app"
