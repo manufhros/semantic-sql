@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+loguru
+cohere
+openai
+sqlalchemy
+cachetools
+numpy

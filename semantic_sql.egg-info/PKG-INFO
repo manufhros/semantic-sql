@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: semantic_sql
+Version: 0.1.0
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: loguru
+Requires-Dist: cohere
+Requires-Dist: openai
+Requires-Dist: sqlalchemy
+Requires-Dist: cachetools
+Requires-Dist: numpy
